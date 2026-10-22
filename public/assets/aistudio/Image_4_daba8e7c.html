@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="sv"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"on-surface-variant": "#44474e", "surface-container-highest": "#e2e2e7", "surface-container-high": "#e8e8ed", "on-surface": "#1a1c20", "inverse-on-surface": "#f0f0f6", "on-secondary": "#ffffff", "secondary-fixed-dim": "#bec6dd", "surface-container": "#eeedf3", "surface-dim": "#dad9df", tertiary: "#665780", "primary-container": "#677794", error: "#ba1a1a", "secondary-fixed": "#dae2f9", "on-error": "#ffffff", "surface-tint": "#4f5f7b", "on-primary": "#ffffff", "on-secondary-fixed": "#121c2c", "secondary-container": "#d7e0f6", "inverse-surface": "#2f3035", outline: "#74777f", "on-primary-container": "#ffffff", "on-primary-fixed-variant": "#374762", "surface-bright": "#f9f9fe", "surface-container-lowest": "#ffffff", "on-secondary-fixed-variant": "#3e4759", "on-primary-fixed": "#0a1c34", "on-background": "#1a1c20", surface: "#f9f9fe", "error-container": "#ffdad6", "primary-fixed-dim": "#b7c7e7", "primary-fixed": "#d5e3ff", "outline-variant": "#c4c6d0", background: "#f9f9fe", "on-tertiary-fixed": "#221439", "on-tertiary": "#ffffff", "tertiary-container": "#7f6f9a", "tertiary-fixed": "#ebdcff", "surface-variant": "#e2e2e7", "on-error-container": "#93000a", "surface-container-low": "#f3f3f9", "on-tertiary-fixed-variant": "#4e4067", secondary: "#555e72", "on-tertiary-container": "#ffffff", "on-secondary-container": "#5a6376", "tertiary-fixed-dim": "#d1beee", "inverse-primary": "#b7c7e7", primary: "#4f5f7a", "primary-dim": "#3b537e", "tertiary-dim": "#5b4c75", "secondary-dim": "#4a5365", "error-dim": "#67040d"}, borderRadius: {DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem"}, spacing: {"space-xs": "0.25rem", "space-lg": "1.5rem", "space-xl": "2rem", "margin-mobile": "1rem", gutter: "1rem", "space-sm": "0.5rem", "space-md": "1rem", margin: "1.5rem", "gutter-mobile": "0.75rem"}, fontFamily: {"label-num": ["Inter"], "display-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-lg": ["Inter"], "body-md": ["Inter"], "headline-lg": ["Plus Jakarta Sans"], "label-md": ["Inter"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "label-lg": ["Inter"], "body-sm": ["Inter"], "headline-md": ["Plus Jakarta Sans"], headline: ["Atkinson Hyperlegible Next"], display: ["Atkinson Hyperlegible Next"], body: ["Atkinson Hyperlegible Next"], label: ["Atkinson Hyperlegible Next"]}, fontSize: {"label-num": ["15px", {lineHeight: "20px", letterSpacing: "-0.01em", fontWeight: "600"}], "display-lg": ["36px", {lineHeight: "44px", letterSpacing: "-0.02em", fontWeight: "700"}], "headline-sm": ["17px", {lineHeight: "24px", fontWeight: "600"}], "body-lg": ["16px", {lineHeight: "24px", fontWeight: "400"}], "body-md": ["15px", {lineHeight: "22px", fontWeight: "400"}], "headline-lg": ["28px", {lineHeight: "36px", letterSpacing: "-0.015em", fontWeight: "600"}], "label-md": ["12px", {lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "600"}], "headline-lg-mobile": ["22px", {lineHeight: "30px", letterSpacing: "-0.01em", fontWeight: "600"}], "display-lg-mobile": ["28px", {lineHeight: "36px", letterSpacing: "-0.015em", fontWeight: "700"}], "label-lg": ["14px", {lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "600"}], "body-sm": ["13px", {lineHeight: "18px", fontWeight: "400"}], "headline-md": ["20px", {lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "600"}]}}}};</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-secondary/20 selection:text-secondary"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(15,30,54,0.05)] pt-safe"><div class="h-16 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Tillbaka" class="w-11 h-11 -ml-2 rounded-xl flex items-center justify-center text-on-surface active:bg-surface-container-high transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="OffertPro Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XKHmb9GmdbnXlLn7AjZAJRRal4FcFNj9Djzeb0GobRojukO-JiBhVPaRHQLtpRSlZC28qU2zjKhRE72QyRhePhlBRuC_TVgtQ2gaRBA-AT-ToQEluLjjEk4lzl_XjhTH_XF-kiPxVSBFRW-W3hflkM8qWr2OevYoc-VWzjD48coia-ar3OuoCTQr55nKvZ3K1vQZRoi817H7i1AnMm90wrs0enhJmv_fREyQGH1uB1vXtsNrpQ4f9dMP0"/><h1 class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight truncate max-w-[160px]">Kund  &amp; Platsdetaljer</h1></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 bg-surface min-h-screen pb-safe"><div class="flex flex-col w-full pb-8">
+<div class="px-margin-mobile pt-space-sm pb-space-md">
+<div class="bg-primary-container text-on-primary rounded-xl p-space-md shadow-md relative overflow-hidden">
+<div class="absolute -right-4 -bottom-4 w-28 h-28 rounded-full bg-secondary/15 pointer-events-none blur-xl"></div>
+<div class="flex items-center justify-between mb-space-xs relative z-10">
+<div class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-secondary/20 text-secondary-fixed">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim animate-pulse"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider">Fältdokumentation</span>
+</div>
+<div class="inline-flex items-center gap-1 bg-surface/10 backdrop-blur-md px-2.5 py-1 rounded-full text-surface-bright">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">schedule</span>
+<span class="font-label-num text-label-num font-semibold" id="field-timer">24:18</span>
+</div>
+</div>
+<div class="relative z-10 mt-1">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-surface-bright font-bold tracking-tight">Villa Lindgren</h2>
+<div class="flex items-center gap-1.5 text-on-primary-container font-body-sm text-body-sm mt-0.5">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span>Granrisvägen 14, Bromma</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm grid grid-cols-3 gap-2 relative z-10">
+<div class="bg-surface/10 rounded-lg p-2 text-center">
+<span class="block font-label-md text-label-md text-on-primary-container">Typ</span>
+<span class="font-label-num text-label-num text-surface-bright">Kök &amp; VVS</span>
+</div>
+<div class="bg-surface/10 rounded-lg p-2 text-center">
+<span class="block font-label-md text-label-md text-on-primary-container">ROT</span>
+<span class="font-label-num text-label-num text-secondary-fixed">Godkänd (30%)</span>
+</div>
+<div class="bg-surface/10 rounded-lg p-2 text-center">
+<span class="block font-label-md text-label-md text-on-primary-container">Status</span>
+<span class="font-label-num text-label-num text-surface-bright">Aktiv</span>
+</div>
+</div>
+</div>
+</div>
+<section class="px-margin-mobile mb-space-lg">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[22px]">photo_library</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Foton från platsen</h3>
+</div>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full font-label-md text-label-md bg-surface-container-high text-on-surface font-semibold">
+        4 tagna
+      </span>
+</div>
+<div class="grid grid-cols-2 gap-gutter-mobile mb-space-sm">
+<div class="relative rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img class="w-full h-32 object-cover" data-alt="Close up photo of an open kitchen sink cabinet showing copper piping, drain installation and shut-off valves in natural daylight, taken during a home renovation site visit." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdHDpz_MpiyPK7rWcGI7pdWRcYXtNoa7bbDUr2SdXhA0Q5GYCUL80tuBkVdE7wdcvb5V67JqfTG-Lol8WJmxPynWb0vYJ_CnPWGI1jrVZ5N63q3FLNu1R-P1EweJ2gk5ggAfPF6OL7wlrGblAKHscYi1Pc5ywxdBLMBumt8wJdGVxd2lhHAf4Tsufg1YEddwDK_Xhm0_5oRXHh2UcSsvJ-__mQsslZC0Bq3CAclMitXstgZtZsQGKY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex items-end p-2">
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-on-primary font-medium truncate">
+<span class="material-symbols-outlined text-[14px] text-secondary-fixed">straighten</span>
+            Mätning diskbänk
+          </span>
+</div>
+</div>
+<div class="relative rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img class="w-full h-32 object-cover" data-alt="Basement utility room showing exposed heating water pipes, drainage lines running along the wall, construction site inspection setting with industrial lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqTxClrGnAQxxqaTTRaJe_DQMM8qgKsGEy1LeelUSChHptUsYjbMt67ZowNNASbvakTXvKATdzgVN5aPzDnRX5jRJCZkb5ZNrZxmWFhMYCMHmZWGDfsxFcDng1QAth0maLqEFJpDNREJndIhQgXgdat1C8dpvbZyXrXgccAn-bnYtB_BfhSNvx8X-bsa5Mo2RCBa8O7eK-iYu5DHX9MEKqMCoB-1wb4cNP0N9aE-YFcqas0KXoqAmO"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex items-end p-2">
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-on-primary font-medium truncate">
+<span class="material-symbols-outlined text-[14px] text-secondary-fixed">water_damage</span>
+            Rördragning källare
+          </span>
+</div>
+</div>
+<div class="relative rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img class="w-full h-32 object-cover" data-alt="Modern electrical distribution panel with breakers visible, clear labels, tidy wiring inside a Swedish detached villa hallway during assessment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCm6eM6YJpyRo3jPw4ybgOSMTeWBcvpYZQGaFv2RUUc6rEFO6OKQGv23ld3gMY47grp9NNWuw9RLm-pJfX_gTpVLfT64nwv8DscfcHLIN0Nh9B0yXrH8q1voAtxF0-grDc_M_8dx6EiYRCYksEQyqD7T1HEoD5gAYuD2Wbgw_wpxS7B9vsOzZCG7C7oMceVTNN-gG-UVTEokePgGRUSeQRqclvD4k9RNF0vPwKpFzZ5QHO448CSmc8J"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex items-end p-2">
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-on-primary font-medium truncate">
+<span class="material-symbols-outlined text-[14px] text-secondary-fixed">bolt</span>
+            Befintlig elcentral
+          </span>
+</div>
+</div>
+<div class="relative rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img class="w-full h-32 object-cover" data-alt="Scandinavian kitchen with wooden countertops and white tiles, renovation markings on wall, viewed from dining area with natural northern light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPEXj3vOqyHPvyxArq8X3XmJYYeI2nMgbCmdpawnoNl2u3pwUy_lG0EcIn15MhlwqW0G4DQWBdipwfTBlJFfG7odKOKlCIVHVcTWjgKhGVO96zbItDeZuztmi7TOE-_NcCipB0uiXbnBflIziIvboX2mT0oPqyMAXKyDsOZP8g4NwCPLOcvfpVpCCOb_mEV5g0imtzg66ldyJi4t-EkZtgqagu6iiJMQe_ViI8idbttRT-yw3eL95Y"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex items-end p-2">
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-on-primary font-medium truncate">
+<span class="material-symbols-outlined text-[14px] text-secondary-fixed">aspect_ratio</span>
+            Översikt köksstommar
+          </span>
+</div>
+</div>
+</div>
+<button class="w-full h-12 bg-surface-container-low active:bg-surface-container-high text-primary rounded-xl flex items-center justify-center gap-2 shadow-sm font-label-lg text-label-lg font-semibold transition-colors" type="button">
+<span class="material-symbols-outlined text-secondary text-[22px]">add_a_photo</span>
+<span>Ta nytt foto / Välj bild</span>
+</button>
+</section>
+<section class="px-margin-mobile mb-space-lg">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[22px]">description</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Kundens önskemål &amp; anteckningar</h3>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm mb-space-sm">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[16px]">edit_note</span>
+</div>
+<span class="font-label-lg text-label-lg font-semibold text-on-surface">Projektpunkter</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Senast ändrad 11:42</span>
+</div>
+<ul class="space-y-space-sm">
+<li class="flex items-start gap-2.5 p-2 rounded-lg bg-surface-container-low text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<div class="flex-1 min-w-0">
+<p class="font-body-md text-body-md text-on-surface leading-tight">Flytta avlopp 40 cm</p>
+<span class="font-label-md text-label-md text-on-surface-variant">Kräver bilning i bjälklag, cirka 3-4 timmar</span>
+</div>
+</li>
+<li class="flex items-start gap-2.5 p-2 rounded-lg bg-surface-container-low text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<div class="flex-1 min-w-0">
+<p class="font-body-md text-body-md text-on-surface leading-tight">Installera LED-spotlights under överskåp</p>
+<span class="font-label-md text-label-md text-on-surface-variant">3 st dimbara lister 2700K inkl. trafo</span>
+</div>
+</li>
+<li class="flex items-start gap-2.5 p-2 rounded-lg bg-surface-container-low text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<div class="flex-1 min-w-0">
+<p class="font-body-md text-body-md text-on-surface leading-tight">ROT-avdrag önskas</p>
+<span class="font-label-md text-label-md text-on-surface-variant">50/50 fördelning mellan båda fastighetsägarna</span>
+</div>
+</li>
+</ul>
+<div class="mt-space-md pt-space-sm">
+<button class="w-full h-12 rounded-xl bg-secondary text-on-secondary flex items-center justify-center gap-2 shadow-sm font-label-lg text-label-lg font-semibold active:opacity-90 transition-all" id="voice-memo-btn" type="button">
+<span class="material-symbols-outlined text-[20px]" id="voice-icon">mic</span>
+<span id="voice-text">Spela in röstmemo (AI transkribering)</span>
+</button>
+</div>
+</div>
+</section>
+<section class="px-margin-mobile mb-space-xl">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[22px]">fact_check</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Checklista för fältkontroll</h3>
+</div>
+<span class="font-label-md text-label-md text-secondary font-semibold">Klar för offert</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm space-y-1">
+<label class="flex items-center gap-3 p-2.5 rounded-lg active:bg-surface-container-low cursor-pointer select-none">
+<div class="w-6 h-6 rounded bg-primary flex items-center justify-center text-on-primary shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div class="flex-1 min-w-0">
+<span class="font-body-md text-body-md font-medium text-on-surface block">Mått kontrollerade</span>
+<span class="font-label-md text-label-md text-on-surface-variant block">Höjder, väggbredder och rördimensioner</span>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px]">verified</span>
+</label>
+<label class="flex items-center gap-3 p-2.5 rounded-lg active:bg-surface-container-low cursor-pointer select-none">
+<div class="w-6 h-6 rounded bg-primary flex items-center justify-center text-on-primary shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div class="flex-1 min-w-0">
+<span class="font-body-md text-body-md font-medium text-on-surface block">Befintligt skick fotat</span>
+<span class="font-label-md text-label-md text-on-surface-variant block">Underlag för eventuella dolda fel och slitage</span>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px]">verified</span>
+</label>
+<label class="flex items-center gap-3 p-2.5 rounded-lg active:bg-surface-container-low cursor-pointer select-none">
+<div class="w-6 h-6 rounded bg-primary flex items-center justify-center text-on-primary shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div class="flex-1 min-w-0">
+<span class="font-body-md text-body-md font-medium text-on-surface block">Kundens personnummer hämtat</span>
+<span class="font-label-md text-label-md text-on-surface-variant block">Verifierat för ROT &amp; digital BankID-signering</span>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px]">verified</span>
+</label>
+</div>
+</section>
+<div class="sticky bottom-0 z-40 bg-surface/95 backdrop-blur-md px-margin-mobile pt-space-sm pb-space-md shadow-[0_-4px_16px_rgba(15,30,54,0.08)]">
+<button class="w-full h-14 bg-primary text-on-primary rounded-xl flex items-center justify-between px-space-md shadow-md active:bg-on-surface transition-colors" type="button">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-secondary flex items-center justify-center text-on-secondary shrink-0">
+<span class="material-symbols-outlined text-[18px]">directions_car</span>
+</div>
+<span class="font-label-lg text-label-lg font-bold text-left leading-tight text-surface-bright">
+          Avsluta besök &amp; Bygg offert i bilen
+        </span>
+</div>
+<span class="material-symbols-outlined text-[24px] text-secondary-fixed">arrow_forward</span>
+</button>
+</div>
+</div>
+<script>
+  (() => {
+    let seconds = 24 * 60 + 18;
+    const timerElem = document.getElementById('field-timer');
+    if (timerElem) {
+      setInterval(() => {
+        seconds++;
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        timerElem.textContent = `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+      }, 1000);
+    }
+
+    const voiceBtn = document.getElementById('voice-memo-btn');
+    const voiceIcon = document.getElementById('voice-icon');
+    const voiceText = document.getElementById('voice-text');
+    let isRecording = false;
+
+    if (voiceBtn) {
+      voiceBtn.addEventListener('click', () => {
+        isRecording = !isRecording;
+        if (isRecording) {
+          voiceBtn.classList.remove('bg-secondary');
+          voiceBtn.classList.add('bg-error');
+          voiceIcon.textContent = 'stop_circle';
+          voiceText.textContent = 'Spelar in memo... Tryck för att stoppa';
+        } else {
+          voiceBtn.classList.remove('bg-error');
+          voiceBtn.classList.add('bg-secondary');
+          voiceIcon.textContent = 'mic';
+          voiceText.textContent = 'Memo sparat & transkriberat!';
+          setTimeout(() => {
+            voiceText.textContent = 'Spela in nytt röstmemo';
+          }, 2400);
+        }
+      });
+    }
+  })();
+</script></main></body></html>

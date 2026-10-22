@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="sv" style="font-size: 115%;"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-primary-fixed-variant": "#374762",
+          "surface-container": "#eeedf3",
+          "on-error": "#ffffff",
+          "on-tertiary-fixed-variant": "#4e4067",
+          "on-secondary-fixed-variant": "#3e4759",
+          "on-tertiary-container": "#fffbff",
+          "surface-variant": "#e2e2e7",
+          "outline": "#75777e",
+          "surface-container-low": "#f3f3f9",
+          "primary-container": "#657592",
+          "surface": "#f9f9fe",
+          "on-primary-fixed": "#0a1c34",
+          "on-secondary": "#ffffff",
+          "surface-container-lowest": "#ffffff",
+          "outline-variant": "#c5c6ce",
+          "surface-dim": "#dad9df",
+          "tertiary-fixed": "#ebdcff",
+          "background": "#f9f9fe",
+          "on-secondary-container": "#5a6376",
+          "secondary-container": "#d7e0f6",
+          "surface-tint": "#4f5f7b",
+          "inverse-surface": "#2f3035",
+          "primary": "#4d5c78",
+          "surface-bright": "#f9f9fe",
+          "tertiary": "#64557e",
+          "surface-container-highest": "#e2e2e7",
+          "on-background": "#1a1c20",
+          "inverse-on-surface": "#f0f0f6",
+          "on-secondary-fixed": "#121c2c",
+          "primary-fixed-dim": "#b7c7e7",
+          "on-error-container": "#93000a",
+          "error": "#ba1a1a",
+          "on-primary-container": "#fefcff",
+          "surface-container-high": "#e8e8ed",
+          "tertiary-container": "#7d6d98",
+          "on-surface": "#1a1c20",
+          "error-container": "#ffdad6",
+          "secondary-fixed": "#dae2f9",
+          "on-tertiary": "#ffffff",
+          "tertiary-fixed-dim": "#d1beee",
+          "inverse-primary": "#b7c7e7",
+          "on-primary": "#ffffff",
+          "on-surface-variant": "#44474d",
+          "secondary": "#555e72",
+          "primary-fixed": "#d5e3ff",
+          "secondary-fixed-dim": "#bec6dd",
+          "on-tertiary-fixed": "#221439"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.125rem",
+          "lg": "0.25rem",
+          "xl": "0.5rem",
+          "full": "0.75rem"
+        },
+        "spacing": {
+          "gutter-mobile": "0.75rem",
+          "gutter": "1rem",
+          "margin": "1.5rem",
+          "space-md": "1rem",
+          "space-xl": "2rem",
+          "margin-mobile": "1rem",
+          "space-xs": "0.25rem",
+          "space-lg": "1.5rem",
+          "space-sm": "0.5rem"
+        },
+        "fontFamily": {
+          "headline-sm": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "headline-lg": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "headline-md": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "body-md": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "display-lg": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "label-num": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "label-md": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "body-lg": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "label-lg": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "body-sm": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "headline-lg-mobile": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "display-lg-mobile": ["Atkinson Hyperlegible Next", "sans-serif"],
+          "sans": ["Atkinson Hyperlegible Next", "sans-serif"]
+        },
+        "fontSize": {
+          "headline-sm": ["17px", {"lineHeight": "24px", "fontWeight": "600"}],
+          "headline-lg": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "600"}],
+          "headline-md": ["20px", {"lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "body-md": ["15px", {"lineHeight": "22px", "fontWeight": "400"}],
+          "display-lg": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "label-num": ["15px", {"lineHeight": "20px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+          "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+          "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}],
+          "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+          "headline-lg-mobile": ["22px", {"lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "display-lg-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700"}]
+        }
+      }
+    }
+  }
+</script><style>@layer base{html,body{width:100%;margin:0;padding:0;font-family:'Atkinson Hyperlegible Next', sans-serif;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-secondary/20 selection:text-secondary"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl border-b border-surface-container-high pt-safe"><div class="h-16 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Tillbaka" class="w-11 h-11 -ml-2 rounded-xl flex items-center justify-center text-on-surface active:bg-surface-container-high transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="OffertPro Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XKHmb9GmdbnXlLn7AjZAJRRal4FcFNj9Djzeb0GobRojukO-JiBhVPaRHQLtpRSlZC28qU2zjKhRE72QyRhePhlBRuC_TVgtQ2gaRBA-AT-ToQEluLjjEk4lzl_XjhTH_XF-kiPxVSBFRW-W3hflkM8qWr2OevYoc-VWzjD48coia-ar3OuoCTQr55nKvZ3K1vQZRoi817H7i1AnMm90wrs0enhJmv_fREyQGH1uB1vXtsNrpQ4f9dMP0"/><h1 class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight truncate max-w-[190px]">Offertgranskning</h1></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 bg-surface min-h-screen pb-safe"><div class="flex flex-col w-full pb-10">
+<div class="px-margin-mobile pt-space-sm pb-space-xs flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider font-semibold">Klar för digital signering</span>
+</div>
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[15px]">verified_user</span>
+<span>256-bit krypterad</span>
+</div>
+</div>
+<!-- Offertförhandsvisning -->
+<div class="px-margin-mobile mb-space-md">
+<div class="relative bg-surface-container-lowest rounded-xl shadow-md p-space-md overflow-hidden border border-outline-variant/30">
+<div class="flex items-start justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container shrink-0">
+<span class="material-symbols-outlined text-[24px]">picture_as_pdf</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">Offert #2024-089.pdf</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Takbyte &amp; Solcellsförberedelse • 4 sidor</div>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container text-on-surface-variant font-label-md text-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+<span>Signeras</span>
+</span>
+</div>
+<div class="relative w-full rounded-lg overflow-hidden bg-surface-container-low shadow-sm">
+<div class="p-3 bg-primary-container text-on-primary flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold tracking-wider text-secondary-container">NORDIC BYGG &amp; EL</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-highest/20 font-label-md text-[10px] text-inverse-on-surface">OFFERT</span>
+</div>
+<span class="font-label-md text-label-md text-on-primary-container">2024-10-24</span>
+</div>
+<div class="p-3 flex flex-col gap-2.5 bg-surface-container-lowest">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-md text-label-md text-on-surface-variant block">Beställare</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Anna Lindgren</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Solhemsvägen 14, Nacka</span>
+</div>
+<div class="text-right">
+<span class="font-label-md text-label-md text-on-surface-variant block">Att betala (efter ROT)</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-secondary font-bold">40 202 kr</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2 pt-1">
+<div class="relative h-20 rounded-lg overflow-hidden bg-surface-container">
+<img alt="Takytor" class="w-full h-full object-cover" data-alt="Close up high quality photo of newly laid modern Swedish black concrete roof tiles with solar panel mounting brackets under crisp clear daylight, clean artisan craftsmanship" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAR5m3lAsWb6MSHRmdNRHuH4kXwM1AP6AvVMRh0Vl5FrGrN_5nccdoTk21cYEVf_o8EUgKfOLe9cdrnzxxNkuYnm4rwPR-lgt1c_7-v5DAJN5b1hEj9gEgaumVXM8vQv4nfp5iT5Kl3cCPdF1KLVdsOTS5GH9xJU6GUeGN66v3u20Ao-w9m3ZBnfClYCh4ZD4FVt_b_foxi2FFgZKSUAN8ec2gSABAaTUYtUcA0RkH3Qn51JJo19w5d"/>
+<div class="absolute bottom-1 left-1.5 px-1.5 py-0.5 rounded bg-tertiary-container/80 backdrop-blur-sm text-on-tertiary font-label-md text-[10px]">Bilaga 1: Takytor</div>
+</div>
+<div class="relative h-20 rounded-lg overflow-hidden bg-surface-container">
+<img alt="Elcentral" class="w-full h-full object-cover" data-alt="Technical clean inspection photo of Swedish residential electrical main cabinet prepared for hybrid solar inverter installation with labeled cable routing" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJ7dnHfBxV0jHPRrRB2dPoSJJRFre5IJKV-4DIi1Y6VqJIs3GqIoWetgu5JTfXgbyQBSSKwTu3av-HXU6n1AKoloGLFmSUH_WSWDmm5pEQKzA47iOiIc1jj652CwEnPJu13h4Jg57Um6K9FXvEMjy33S4RAcudE6XYCrnDF624SAQoyt1gbcXTmB07Ww6EbYiCpwJ4VsmsmXntfYajw1MS6GriKkNOQ032RE5cMPtinsknc5VxSLhG"/>
+<div class="absolute bottom-1 left-1.5 px-1.5 py-0.5 rounded bg-tertiary-container/80 backdrop-blur-sm text-on-tertiary font-label-md text-[10px]">Bilaga 2: Elcentral</div>
+</div>
+</div>
+<div class="rounded-lg bg-surface-container-low p-2.5 flex flex-col gap-1.5">
+<div class="flex justify-between items-center font-body-sm text-body-sm text-on-surface">
+<span>Arbetskostnad (38 timmar á 790 kr)</span>
+<span class="font-label-num text-label-num font-semibold">30 020 kr</span>
+</div>
+<div class="flex justify-between items-center font-body-sm text-body-sm text-on-surface">
+<span>Material &amp; ställning (Specificerat)</span>
+<span class="font-label-num text-label-num font-semibold">22 195 kr</span>
+</div>
+<div class="flex justify-between items-center font-label-md text-label-md text-secondary">
+<span class="flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+                Godkänt ROT-avdrag (30% arbete)
+              </span>
+<span class="font-label-num text-label-num font-bold">-9 006 kr</span>
+</div>
+<div class="flex justify-between items-center font-label-md text-label-md text-on-surface-variant pt-1 border-t border-outline-variant/30">
+<span>Moms (25% ingår med 8 040 kr)</span>
+<span class="font-semibold">Totalt inkl. moms &amp; ROT</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Leverans & Signeringsmetod: Enbart e-post -->
+<div class="px-margin-mobile mb-space-md">
+<div class="font-headline-sm text-headline-sm text-on-surface mb-2 font-semibold">Mottagare för BankID-signering</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm border-2 border-secondary bg-secondary/5">
+<div class="flex items-start gap-space-sm">
+<div class="w-11 h-11 rounded-xl bg-secondary text-on-secondary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[24px]">forward_to_inbox</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">E-postas för BankID-signering</span>
+<span class="w-5 h-5 rounded-full bg-secondary text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Kunden får en krypterad signeringslänk skickad direkt till sin inkorg och signerar smidigt med Mobilt BankID hemma i lugn och ro.</p>
+<div class="mt-2.5 p-2 rounded-lg bg-surface-container-lowest border border-outline-variant/40 flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 truncate">
+<span class="material-symbols-outlined text-secondary text-[18px]">mail</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface truncate">anna.lindgren@gmail.com</span>
+</div>
+<span class="px-2 py-0.5 rounded text-[11px] font-semibold bg-secondary-container text-on-secondary-container shrink-0">Bekräftad</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- BankID-verifiering Box -->
+<div class="px-margin-mobile mb-space-md">
+<div class="rounded-xl bg-surface-container-lowest shadow-md overflow-hidden border border-outline-variant/30">
+<div class="bg-[#002244] p-space-md text-white flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-[20px]">fingerprint</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm font-bold text-white">BankID Verifiering</div>
+<div class="font-body-sm text-[11px] text-white/80">Elektroniskt ID och bindande signatur</div>
+</div>
+</div>
+<div class="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/15 text-white font-label-md text-[11px]">
+<span class="w-1.5 h-1.5 rounded-full bg-green-400"></span>
+<span>Redo</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider font-semibold">Identifierad beställare</span>
+<div class="flex items-center justify-between p-3 rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[20px]">person</span>
+</div>
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface block font-semibold">Anna Lindgren</span>
+<span class="font-label-num text-label-num text-on-surface-variant">19840512-XXXX</span>
+</div>
+</div>
+<span class="px-2 py-1 rounded bg-secondary-container/80 text-on-secondary-container font-label-md text-[11px] font-semibold">Folkbokförd ägare</span>
+</div>
+</div>
+<div class="p-3.5 rounded-lg bg-surface-container-low flex flex-col gap-2">
+<div class="flex items-center gap-2 text-primary-container">
+<span class="material-symbols-outlined text-[20px]">format_image_left</span>
+<span class="font-headline-sm text-headline-sm font-semibold">Juridisk säkerhetstext i BankID</span>
+</div>
+<div class="font-body-sm text-body-sm text-on-surface p-2.5 rounded bg-surface-container-lowest font-mono leading-relaxed border border-outline-variant/30">
+            "Offertbelopp: 40 202 kr inkl. ROT &amp; moms. Godkännande av entreprenad avseende tak- och elarbeten enligt Offert #2024-089."
+          </div>
+<p class="font-label-md text-[11px] text-on-surface-variant">Signeringen är juridiskt bindande enligt eIDAS förordning och svensk avtalsrätt.</p>
+</div>
+<div class="flex items-start gap-2.5 p-3 rounded-lg bg-surface-container-high">
+<div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-on-secondary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">sync_alt</span>
+</div>
+<div class="text-on-surface">
+<span class="font-label-md text-label-md font-semibold block">Automatiserad affärssynk</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Vid genomförd signering skapas orderunderlag och arkiveras PDF tillsammans med fältfoton direkt i <span class="font-semibold text-on-surface">Fortnox</span> &amp; <span class="font-semibold text-on-surface">Visma eEkonomi</span>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CTA Knapp -->
+<div class="px-margin-mobile flex flex-col gap-space-sm pt-2">
+<button class="w-full min-h-[52px] py-3.5 px-4 rounded-xl bg-[#002244] text-white font-headline-sm text-headline-sm font-semibold flex items-center justify-center gap-2.5 shadow-md active:bg-[#001730] transition-transform active:scale-[0.99] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" id="primaryActionBtn">
+<span class="material-symbols-outlined text-[22px]">mark_email_read</span>
+<span id="primaryBtnText">E-posta offert (BankID-signering)</span>
+</button>
+<p class="text-center font-label-md text-[11px] text-on-surface-variant">Länken är aktiv i 14 dagar med BankID-verifiering vid öppning</p>
+</div>
+<div class="fixed bottom-6 left-4 right-4 z-50 bg-primary-container text-on-primary p-4 rounded-xl shadow-xl flex items-center gap-3 transform translate-y-32 transition-transform duration-300 ease-out" id="toastSuccess">
+<div class="w-9 h-9 rounded-full bg-secondary flex items-center justify-center text-on-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="font-headline-sm text-headline-sm font-semibold" id="toastTitle">Offert skickad via e-post!</div>
+<div class="font-body-sm text-body-sm text-on-primary-container" id="toastSubtitle">Säker signeringslänk skickad till anna.lindgren@gmail.com</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const primaryBtn = document.getElementById('primaryActionBtn');
+    const toast = document.getElementById('toastSuccess');
+    const toastTitle = document.getElementById('toastTitle');
+    const toastSubtitle = document.getElementById('toastSubtitle');
+
+    function showToast(title, subtitle) {
+      toastTitle.textContent = title;
+      toastSubtitle.textContent = subtitle;
+      toast.classList.remove('translate-y-32');
+      setTimeout(() => {
+        toast.classList.add('translate-y-32');
+      }, 4000);
+    }
+
+    primaryBtn.addEventListener('click', () => {
+      primaryBtn.disabled = true;
+      primaryBtn.classList.add('opacity-75');
+      showToast('Offert skickad via e-post!', 'Signeringslänk med BankID har skickats till anna.lindgren@gmail.com');
+      setTimeout(() => {
+        primaryBtn.disabled = false;
+        primaryBtn.classList.remove('opacity-75');
+      }, 4000);
+    });
+  })();
+</script></main></body></html>

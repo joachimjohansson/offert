@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for OffertPro: Swedish craftsman field quoting, inspection, calculation with ROT-avdrag, PDF generation, and interactive BankID signing. Supports responsive layout with device frame switcher (Mobile, Tablet, Desktop) and multiple preloaded Swedish trade projects.",
+  "updatedAt":  "2026-10-22T22:46:48.365045187Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

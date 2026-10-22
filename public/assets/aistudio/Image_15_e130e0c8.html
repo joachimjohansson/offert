@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html lang="sv"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>OffertPro</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-primary-fixed-variant":"#374762","surface-container-lowest":"#ffffff","outline":"#75777e","secondary":"#555e72","surface-container-highest":"#e2e2e7","tertiary-fixed-dim":"#d1beee","outline-variant":"#c5c6ce","tertiary-fixed":"#ebdcff","secondary-fixed-dim":"#bec6dd","on-primary-container":"#fefcff","inverse-on-surface":"#f0f0f6","surface-container":"#eeedf3","primary-container":"#657592","background":"#f9f9fe","secondary-fixed":"#dae2f9","on-secondary-fixed-variant":"#3e4759","on-error-container":"#93000a","surface-variant":"#e2e2e7","surface-container-low":"#f3f3f9","surface-bright":"#f9f9fe","on-primary":"#ffffff","surface-container-high":"#e8e8ed","inverse-primary":"#b7c7e7","error":"#ba1a1a","tertiary":"#64557e","on-surface-variant":"#44474d","surface":"#f9f9fe","on-surface":"#1a1c20","on-secondary-fixed":"#121c2c","primary":"#4d5c78","surface-dim":"#dad9df","on-secondary":"#ffffff","on-tertiary":"#ffffff","on-background":"#1a1c20","error-container":"#ffdad6","primary-fixed":"#d5e3ff","on-primary-fixed":"#0a1c34","tertiary-container":"#7d6d98","on-tertiary-fixed":"#221439","surface-tint":"#4f5f7b","on-tertiary-fixed-variant":"#4e4067","inverse-surface":"#2f3035","secondary-container":"#d7e0f6","on-tertiary-container":"#fffbff","primary-fixed-dim":"#b7c7e7","on-secondary-container":"#5a6376","on-error":"#ffffff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xs":"0.25rem","gutter-mobile":"0.75rem","space-lg":"1.5rem","gutter":"1rem","space-sm":"0.5rem","margin-mobile":"1rem","margin":"1.5rem","space-md":"1rem","space-xl":"2rem"},"fontFamily":{"label-lg":["Atkinson Hyperlegible Next"],"headline-md":["Atkinson Hyperlegible Next"],"body-md":["Atkinson Hyperlegible Next"],"headline-lg":["Atkinson Hyperlegible Next"],"label-md":["Atkinson Hyperlegible Next"],"headline-sm":["Atkinson Hyperlegible Next"],"label-num":["Atkinson Hyperlegible Next"],"display-lg-mobile":["Atkinson Hyperlegible Next"],"body-sm":["Atkinson Hyperlegible Next"],"body-lg":["Atkinson Hyperlegible Next"],"display-lg":["Atkinson Hyperlegible Next"],"headline-lg-mobile":["Atkinson Hyperlegible Next"]},"fontSize":{"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-sm":["17px",{"lineHeight":"24px","fontWeight":"600"}],"label-num":["15px",{"lineHeight":"20px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg-mobile":["22px",{"lineHeight":"30px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-[1280px] mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-xs text-primary" data-path="offerter" href="#"><span class="material-symbols-outlined text-primary text-[26px]">description</span><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">Offert<span class="text-primary">Pro</span></span></a><nav class="hidden md:flex items-center gap-space-xs" data-active-classes="bg-secondary-container text-on-secondary-container font-label-lg text-label-lg rounded-lg"><a aria-current="page" class="px-space-md py-space-xs transition-colors bg-secondary-container text-on-secondary-container font-label-lg text-label-lg rounded-lg" data-path="offerter" href="#">Offerter</a><a class="px-space-md py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors rounded-lg" data-path="kalkylunderlag" href="#">Kalkyl</a><a class="px-space-md py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors rounded-lg" data-path="artiklar" href="#">Artiklar</a><a class="px-space-md py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors rounded-lg" data-path="kunder" href="#">Kunder</a></nav></div><div class="flex items-center gap-space-md"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full max-w-[1280px] mx-auto px-margin pt-16 flex-1 bg-background"><div class="flex flex-col w-full pb-16">
+<!-- Top Meta / Status Strip -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-gutter py-space-md mb-space-sm">
+<div class="flex items-center gap-space-sm text-on-surface-variant font-label-md text-label-md uppercase tracking-wider">
+<span class="flex h-2 w-2 rounded-full bg-primary animate-ping"></span>
+<span>Fältprotokoll</span>
+<span class="text-outline-variant">•</span>
+<span>Protokoll-ID: FP-2025-0884</span>
+<span class="text-outline-variant">•</span>
+<span>Handläggare: Marcus Ekström</span>
+</div>
+<div class="flex items-center gap-space-sm self-start md:self-auto">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md rounded-lg transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">print</span>
+<span>Skriv ut rapport</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md rounded-lg transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">share</span>
+<span>Dela länk</span>
+</button>
+</div>
+</div>
+<!-- Section 1: Huvudkort (Villa Lindgren) -->
+<section class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg mb-space-lg relative overflow-hidden">
+<div class="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-secondary-fixed/30 pointer-events-none blur-2xl"></div>
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg relative z-10">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded bg-secondary-container text-on-secondary-container font-label-md text-label-md">
+            Kök &amp; VVS
+          </span>
+<span class="px-space-sm py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-md text-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">verified</span>
+            ROT-avdrag: 30% Godkänd
+          </span>
+<span class="px-space-sm py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-md text-label-md flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+            Pågående besök
+          </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-space-xs">
+          Villa Lindgren
+        </h1>
+<div class="flex flex-wrap items-center gap-space-md text-on-surface-variant font-body-md text-body-md">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-outline">location_on</span>
+<span>Granrisvägen 14, Bromma</span>
+</div>
+<span class="text-outline-variant">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-outline">account_circle</span>
+<span>Jonas &amp; Sofia Lindgren</span>
+</div>
+<span class="text-outline-variant">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px] text-outline">calendar_today</span>
+<span>26 feb 2025, 08:30</span>
+</div>
+</div>
+</div>
+<!-- Live Inspection Timer Badge -->
+<div class="flex lg:flex-col items-center lg:items-end justify-between bg-surface-container-low p-space-md rounded-xl min-w-[210px]">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-primary text-[18px]">timer</span>
+<span>Besökstid aktiv</span>
+</div>
+<div class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight" id="visit-timer">
+          24:22
+        </div>
+<span class="font-body-sm text-body-sm text-outline">Startad 08:35</span>
+</div>
+</div>
+</section>
+<!-- Section 2: Foton från fältbesöket (Grid med 4 punkter + Ta nytt foto) -->
+<section class="mb-space-lg">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Fotodokumentation från platsen</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tidsstämplat bildbevis för underlag, rördragning och dolda förutsättningar</p>
+</div>
+<button class="hidden sm:inline-flex items-center gap-space-xs px-space-md py-space-xs bg-primary text-on-primary rounded-lg font-label-md text-label-md shadow-sm hover:opacity-95 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+<span>Ta nytt foto / Ladda upp</span>
+</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Foto 1 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-44 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Close-up professional inspection photo of kitchen plumbing under sink showing brass valves, drain pipes, and laser measurement tool resting on wooden cabinet bottom in natural daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBupfs7bnmRGpviqF5zxSwDabP627mvuW_64Hjl4YVq66tT8iUIsGpFmmvNzzCRa7Qfi9_LZWMvAy6nCYq8h9pwWWHmFGFFcC4Bae96aJGpvgsIK47hHTKVSJ_KOLpdeTm9-i3KNYcC3-PlU8KnFFf0IeibwOKRoWbZLoW-ACDPISbGJdDCTyA0cokDiu9QaMvv_Oc6cGuOu1_xgE5HeGrDTl7UV2fpgA3XpvAwZx78qE7HQ2-trSiC"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur font-label-md text-label-md text-on-surface">
+            08:41
+          </span>
+<span class="absolute bottom-2 right-2 p-1.5 rounded-full bg-surface-container-lowest/90 backdrop-blur text-primary flex items-center">
+<span class="material-symbols-outlined text-[16px]">straighten</span>
+</span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Mätning diskbänk &amp; avlopp</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Dimension 75 mm stam, avstick till diskmaskin kräver vinkelkoppling.</p>
+</div>
+<div class="mt-space-sm pt-space-xs flex items-center justify-between text-outline font-label-md text-label-md">
+<span>Punkt #01</span>
+<span class="text-primary hover:underline cursor-pointer">Zooma</span>
+</div>
+</div>
+</div>
+<!-- Foto 2 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-44 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Technical architectural photo of basement ceiling with exposed copper water pipes, cast iron sewage junction, and chalk marks indicating proposed drilling vector in soft ambient lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgv9pmDL-CDQN2b9oAuxI6208WsYSUamCKVCYIGQjA8YZ4vp32XnbO-hsL3jGaep4g6vP4EPYtNyYPO72QXRiV5F2ULcUy2-DdyRl5V176gj7tona7Yz7wu2mr5EwyZ-1QhfeRcEaJSgw04eCEC-JgeeHQT0gI4u2uOOikZrdv5W6B3sOe8N-38V4teDmR0R33RpuGgG-rDIyoo4Em9L1BgcDcydCpzwRrzndz0pAcZLLyAv5YU3qE"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur font-label-md text-label-md text-on-surface">
+            08:47
+          </span>
+<span class="absolute bottom-2 right-2 p-1.5 rounded-full bg-surface-container-lowest/90 backdrop-blur text-primary flex items-center">
+<span class="material-symbols-outlined text-[16px]">plumbing</span>
+</span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Rördragning källare</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Gjutjärnsrör med god godstjocklek. Genomföring sker i bjälklagsfack 3.</p>
+</div>
+<div class="mt-space-sm pt-space-xs flex items-center justify-between text-outline font-label-md text-label-md">
+<span>Punkt #02</span>
+<span class="text-primary hover:underline cursor-pointer">Zooma</span>
+</div>
+</div>
+</div>
+<!-- Foto 3 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-44 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Electrical distribution panel inside residential home open door showing automated circuit breakers, labels for kitchen groups and earth leakage safety switch in crisp illumination." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZA6FviJ8CP5PJIr5r9Ki-F85XtMI_A2fN-XBMF9V8vXqhWgH7rD6EDOkO2vmh_ruhXpoeXiwg6j5GKOSTK_0O_v1eqli-Fmwq_0FCIeBF9QHq0e8Y3sXwL6CVQtuEXG5D7FgMJM2H6ftVYVmwf8nUp61H2FH9Ys-JhWYiOvD5rjVDYRDFmsBTRf2X8HZPBp6CVmbPXEL7SSstgo1XLhP7qCjm60dAJjiKkJOhvWN3GAcQSkb6AyaZ"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur font-label-md text-label-md text-on-surface">
+            08:52
+          </span>
+<span class="absolute bottom-2 right-2 p-1.5 rounded-full bg-surface-container-lowest/90 backdrop-blur text-primary flex items-center">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+</span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Befintlig elcentral</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Hager normcentral med jordfelsbrytare. Två lediga grupper (16A) finns tillgängliga.</p>
+</div>
+<div class="mt-space-sm pt-space-xs flex items-center justify-between text-outline font-label-md text-label-md">
+<span>Punkt #03</span>
+<span class="text-primary hover:underline cursor-pointer">Zooma</span>
+</div>
+</div>
+</div>
+<!-- Foto 4 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-44 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Wide perspective shot of Scandinavian kitchen frames during preliminary remodeling inspection, showing counter heights, drywall conditions and ceiling beam alignment with natural morning light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7j4OIsIXzVu-QscqB32RpuvjGY91SjVt_U_pFX5iJ8Su5gtFqWGB6lAMuHjonCdho4Bze6tOw0_DUxkl6D4TfXGQEkbINWMC9KYTGlGZQRkFxZJrNGgL9xsBoohkwUjWe46Mr2Qb_QarOLNA6iTWdr90WYZSHuYU2Nac-5CjqfOQTfmAn7tP6sYXdBKY6m_qrgo3Kxcnx0DnJqLjfPXsTErPWSkCwGGYYPyzOFv4u-XfTIggvQi8f"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur font-label-md text-label-md text-on-surface">
+            08:58
+          </span>
+<span class="absolute bottom-2 right-2 p-1.5 rounded-full bg-surface-container-lowest/90 backdrop-blur text-primary flex items-center">
+<span class="material-symbols-outlined text-[16px]">grid_view</span>
+</span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Översikt köksstommar</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Befintliga stommar demonteras av kund. Vägglivet är rakt (+/- 3mm tolerans).</p>
+</div>
+<div class="mt-space-sm pt-space-xs flex items-center justify-between text-outline font-label-md text-label-md">
+<span>Punkt #04</span>
+<span class="text-primary hover:underline cursor-pointer">Zooma</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Mobilknapp för nytt foto -->
+<button class="sm:hidden mt-space-md w-full py-3 bg-primary text-on-primary rounded-lg font-label-md text-label-md flex items-center justify-center gap-space-xs shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+<span>Ta nytt foto / Ladda upp bild</span>
+</button>
+</section>
+<!-- Two-Column Section: Anteckningar + Fältkontroll -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mb-space-lg">
+<!-- Section 3: Kundens önskemål & anteckningar (7 cols) -->
+<section class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">edit_note</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Kundens önskemål &amp; kalkylerade åtgärder</h2>
+</div>
+<span class="font-label-md text-label-md text-outline">3 poster</span>
+</div>
+<div class="space-y-space-md">
+<!-- Item 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-md">
+<div class="p-2 bg-secondary-container rounded text-on-secondary-container shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">handyman</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Flytta avlopp 40 cm</h3>
+<span class="font-label-num text-label-num text-primary shrink-0">~3-4 tim</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                Kräver bilning i bjälklag. Dammfri sågning &amp; skyddstäckning mot intilliggande vardagsrum debiteras som tillägg.
+              </p>
+<div class="mt-space-xs flex items-center gap-space-xs text-outline font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px]">info</span>
+<span>Material: Rörböj 45° 75mm + övergångsmuff ingår i kalkyl.</span>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-md">
+<div class="p-2 bg-secondary-container rounded text-on-secondary-container shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">lightbulb</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Installera LED-spotlights under överskåp</h3>
+<span class="font-label-num text-label-num text-primary shrink-0">3 st lister</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                3 st dimbara linjära LED-profiler (2700K varmvit, hög Ra &gt;90). Inkluderar fasdimringsbar drivdonstrafo dold i fris.
+              </p>
+<div class="mt-space-xs flex items-center gap-space-xs text-outline font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px]">tune</span>
+<span>Styrs via befintlig Schneider Renova dosdimmer på vägg.</span>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-md">
+<div class="p-2 bg-secondary-container rounded text-on-secondary-container shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">percent</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">ROT-avdrag (Skattereduktion)</h3>
+<span class="font-label-num text-label-num text-primary shrink-0">50 / 50</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                Kunden begär maximalt rotavdrag uppdelat jämnt mellan båda fastighetsägarna (Jonas 50%, Sofia 50%).
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Voice memo & AI transcription component -->
+<div class="mt-space-lg p-space-md rounded-xl bg-surface-container border-0 flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-on-surface font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-primary text-[20px]">mic</span>
+<span>Röstmemo fältnotering (AI-transkriberad)</span>
+</div>
+<span class="font-label-md text-label-md text-outline">01:14 min inspelat</span>
+</div>
+<p class="font-body-sm text-body-sm italic text-on-surface-variant bg-surface-container-lowest p-space-sm rounded">
+          “Kunden påpekade att de önskar avstängningsventilerna lättåtkomliga i sockeln under diskbänken istället för längst in. Glöm inte lägga till 2 st ballofixer 15mm med vred.”
+        </p>
+<div class="flex items-center justify-between pt-1">
+<button class="inline-flex items-center gap-1 text-primary hover:opacity-80 font-label-md text-label-md" type="button">
+<span class="material-symbols-outlined text-[16px]">play_circle</span>
+<span>Lyssna på ljudfil</span>
+</button>
+<span class="font-label-md text-label-md text-outline">Transkriberad via Whisper AI</span>
+</div>
+</div>
+</section>
+<!-- Section 4: Checklista för fältkontroll (5 cols) -->
+<section class="lg:col-span-5 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">fact_check</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Fältkontroll</h2>
+</div>
+<span class="px-space-sm py-0.5 rounded bg-surface-container-high text-on-surface font-label-md text-label-md">
+            3 av 3 klara
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+          Obligatoriska kontrollpunkter innan kalkylunderlag och anbud fastställs för kunden.
+        </p>
+<!-- Checklist Items -->
+<div class="space-y-space-sm">
+<!-- Check 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-md">
+<div class="h-6 w-6 rounded bg-primary text-on-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Mått kontrollerade</span>
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-1.5 rounded">Verifierad</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Höjder, väggbredder och rördimensioner mätta med laser (Leica Disto D2).
+              </p>
+</div>
+</div>
+<!-- Check 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-md">
+<div class="h-6 w-6 rounded bg-primary text-on-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Befintligt skick fotat</span>
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-1.5 rounded">Verifierad</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Fullgott underlag för ansvarsavgränsning, dolda fel och tidigare ytslitage.
+              </p>
+</div>
+</div>
+<!-- Check 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-md">
+<div class="h-6 w-6 rounded bg-primary text-on-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Kundens personnummer verifierat</span>
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-1.5 rounded">Verifierad</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Fastighetsbeteckning (Bromma 14:2) samt båda personnummer godkända mot Skatteverket.
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Summary Metric Card -->
+<div class="mt-space-lg p-space-md bg-secondary-container/40 rounded-xl">
+<div class="text-on-secondary-container font-label-md text-label-md uppercase tracking-wider mb-1">
+          Uppskattat kalkylomfång
+        </div>
+<div class="flex items-baseline justify-between">
+<div class="font-headline-lg text-headline-lg text-on-surface font-semibold">
+            ~42 500 kr
+          </div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Arbete: 28h • Material: 6 poster</span>
+</div>
+<div class="mt-2 text-on-surface-variant font-body-sm text-body-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">savings</span>
+<span>Beräknat ROT-avdrag: <strong>-12 750 kr</strong></span>
+</div>
+</div>
+</section>
+</div>
+<!-- Section 5: Primary Action Footer Card -->
+<section class="bg-surface-container-lowest rounded-xl p-space-lg shadow-md flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex items-center gap-space-md w-full md:w-auto">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed shrink-0">
+<span class="material-symbols-outlined text-[28px]">receipt_long</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Kalkylunderlag redo för sammanställning</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Samtliga fältfoton, kundmått och kontrollpunkter är synkroniserade i molnet.
+        </p>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm w-full md:w-auto">
+<button class="w-full sm:w-auto px-space-lg py-3 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-lg text-label-lg transition-colors" type="button">
+        Spara som fältutkast
+      </button>
+<button class="w-full sm:w-auto min-h-[48px] px-space-xl py-3 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm flex items-center justify-center gap-space-xs shadow-sm transition-all transform active:scale-95" id="build-quote-btn" type="button">
+<span>Avsluta besök &amp; Bygg offert i bilen</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</section>
+</div>
+<script>
+  // Simple field visit stopwatch micro-interaction
+  (function initStopwatch() {
+    const timerElem = document.getElementById('visit-timer');
+    if (!timerElem) return;
+
+    let seconds = 24 * 60 + 22; // Start matching mockup at 24:22
+
+    setInterval(() => {
+      seconds++;
+      const mins = Math.floor(seconds / 60);
+      const secs = seconds % 60;
+      timerElem.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    }, 1000);
+
+    const buildBtn = document.getElementById('build-quote-btn');
+    if (buildBtn) {
+      buildBtn.addEventListener('click', () => {
+        buildBtn.innerHTML = `
+          <span class="material-symbols-outlined animate-spin text-[20px]">sync</span>
+          <span>Överför till kalkyl...</span>
+        `;
+        setTimeout(() => {
+          buildBtn.innerHTML = `
+            <span class="material-symbols-outlined text-[20px]">check_circle</span>
+            <span>Kalkyl öppnad!</span>
+          `;
+        }, 800);
+      });
+    }
+  })();
+</script></main><footer class="w-full bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.04)] mt-space-xl"><div class="max-w-[1280px] mx-auto px-margin py-space-lg flex flex-col md:flex-row items-center justify-between gap-gutter text-on-surface-variant font-body-sm text-body-sm"><span>© 2025 OffertPro. Fältanpassad kalkyl &amp; offerthantering.</span><div class="flex items-center gap-space-lg"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="installningar" href="#">Inställningar</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="support" href="#">Support</a></div></div></footer></body></html>

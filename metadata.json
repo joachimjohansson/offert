@@ -1,0 +1,6 @@
+{
+  "name": "OffertPro – Fältoffert & BankID",
+  "description": "Fältanpassad kalkyl, fotodokumentation, ROT-avdrag och digital BankID-signering för svenska hantverkare och entreprenörer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
